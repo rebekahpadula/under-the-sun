@@ -23,6 +23,7 @@ export default class App extends Component {
     this.state = {};
 
     this.toggleNavigation = this.toggleNavigation.bind(this);
+    this.closeMobileNav = this.closeMobileNav.bind(this);
   }
 
   toggleNavigation() {
@@ -41,11 +42,20 @@ export default class App extends Component {
     }
   }
 
+  closeMobileNav(e) {
+    const navLink = document.querySelector('.primary-nav__link');
+    const navList = navLink.parentNode.parentNode;
+    navList.setAttribute('data-expand-content', 'false');
+    // why doesn't this part work??
+    const toggleIcon = document.getElementById('toggleIcon');
+    toggleIcon.setAttribute('src', CloseIcon);
+  }
+
   render() {
     return (
       <AppContainer>
         <Social></Social>
-        <Header toggleNavigation={this.toggleNavigation}></Header>
+        <Header toggleNavigation={this.toggleNavigation} closeMobileNav={this.closeMobileNav}></Header>
         <HeroImage/><ShortBio></ShortBio>
         <Shows></Shows>
         <Video></Video>

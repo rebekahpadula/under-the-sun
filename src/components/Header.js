@@ -111,10 +111,10 @@ export default (props) => {
                     <ToggleIcon src={MenuIcon} id="toggleIcon"/>
                 </NavToggleLink>
                 <NavList className="nav-list" data-expand-content="false">
-                    <NavItem><NavLink className="primary-nav__link" href="#short-bio" data-link-active="false">About</NavLink></NavItem>
-                    <NavItem><NavLink className="primary-nav__link" href="#shows" data-link-active="false">Shows</NavLink></NavItem>
-                    <NavItem><NavLink className="primary-nav__link" href="#media" data-link-active="false">Media</NavLink></NavItem>
-                    <NavItem><NavLink  className="primary-nav__link" href="#booking" data-link-active="false">Booking</NavLink></NavItem>
+                    <NavItem><NavLink className="primary-nav__link" href="#short-bio" data-link-active="false" onClick={props.closeMobileNav}>About</NavLink></NavItem>
+                    <NavItem><NavLink className="primary-nav__link" href="#shows" data-link-active="false" onClick={props.closeMobileNav}>Shows</NavLink></NavItem>
+                    <NavItem><NavLink className="primary-nav__link" href="#media" data-link-active="false" onClick={props.closeMobileNav}>Media</NavLink></NavItem>
+                    <NavItem><NavLink  className="primary-nav__link" href="#booking" data-link-active="false" onClick={props.closeMobileNav}>Booking</NavLink></NavItem>
                 </NavList>
             </Nav>
         </Header>
