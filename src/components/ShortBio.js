@@ -8,10 +8,8 @@ const ShortBio = styled.section`
     background-color: #f9f3e9;
 
     @media screen and (min-width: 768px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 40px;
         align-items: center;
+        display: flex;
     }
 `;
 
@@ -22,12 +20,13 @@ const ShortBioHeading = styled.h1`
 `;
 
 const ShortBioContent = styled.div`
-    flex-basis: 50%;
     max-width: 450px;
     margin: 0 auto 60px auto;
-
+    
     @media screen and (min-width: 768px) {
+        flex-basis: 50%;
         margin-bottom: 0;
+        margin-right: 20px;
     }
 `;
 
@@ -35,7 +34,13 @@ const ShortBioPara = styled.p``;
 
 const ShortBioImage = styled.img`
     width: 100%;
-    display: block;
+    
+    @media screen and (min-width: 768px) {
+        flex-basis: 50%;
+        max-width: 50%;
+        max-height: 450px;
+        margin-left: 20px;
+    }
 `;
 
 export default (props) => {
