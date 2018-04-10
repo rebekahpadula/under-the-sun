@@ -12,6 +12,9 @@ const Header = styled.section`
 `;
 
 const Nav = styled.nav`
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
     flex: 0 1 auto;
     position: absolute;
     right: 0;
@@ -96,6 +99,9 @@ const Logo = styled.h1`
     max-width: 400px;
 `;
 const LogoLink = styled.a`
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
     flex: 1 1 0;
     cursor: pointer;
     text-decoration: none;
