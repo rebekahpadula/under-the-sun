@@ -9,13 +9,13 @@ const Video = styled.section`
 
 const Iframe = styled.iframe`
     border: 0;
-    width: 320px;
-    height: 180px;
+    width: 304px;
+    height: 171px;
     margin: 0 auto;
 
     @media screen and (min-width: 500px) {
-        /* width: 432px; */
-        /* height: 243px; */
+        width: 432px;
+        height: 243px;
     }
 
     @media screen and (min-width: 600px) {
