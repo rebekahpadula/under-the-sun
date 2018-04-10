@@ -48,7 +48,7 @@ export default class App extends Component {
     navList.setAttribute('data-expand-content', 'false');
     // why doesn't this part work??
     const toggleIcon = document.getElementById('toggleIcon');
-    toggleIcon.setAttribute('src', CloseIcon);
+    toggleIcon.setAttribute('src', NavIcon);
   }
 
   render() {
