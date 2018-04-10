@@ -11,6 +11,7 @@ const Iframe = styled.iframe`
     border: 0;
     width: 336px;
     height: 189px;
+    margin: 0 auto;
 
     @media screen and (min-width: 500px) {
         width: 432px;
