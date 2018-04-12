@@ -9,6 +9,7 @@ const ShortBio = styled.section`
 
     @media screen and (min-width: 768px) {
         align-items: center;
+        justify-content: center;
         display: flex;
     }
 `;
@@ -25,8 +26,7 @@ const ShortBioContent = styled.div`
     
     @media screen and (min-width: 768px) {
         flex-basis: 50%;
-        margin-bottom: 0;
-        margin-right: 20px;
+        margin: 0 auto;
     }
 `;
 
