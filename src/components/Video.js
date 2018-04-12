@@ -9,8 +9,8 @@ const Video = styled.section`
 
 const Iframe = styled.iframe`
     border: 0;
-    width: 304px;
-    height: 171px;
+    width: 288px;
+    height: 162px;
     margin: 0 auto;
 
     @media screen and (min-width: 500px) {
