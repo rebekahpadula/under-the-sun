@@ -120,43 +120,43 @@ export default (props) => {
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/404470693344975/">
-                            <ShowsDate><strong>Sat, Mar 10</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/846283592224769/">
+                            <ShowsDate><strong>Sat, May 5</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/404470693344975/">
-                            <ShowsEvent>Castaway's</ShowsEvent><ShowsLocation>Georgetown, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/846283592224769/">
+                            <ShowsEvent>Wild Wing Cafe</ShowsEvent><ShowsLocation>Sandhills, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/178876016213976/">
-                            <ShowsDate><strong>Sat, Mar 17</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/1793099917408705/">
+                            <ShowsDate><strong>Sat, May 26</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/178876016213976/">
-                            <ShowsEvent>Wind Wing Cafe</ShowsEvent>
-                            <ShowsLocation>Harbison, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/1793099917408705/">
+                            <ShowsEvent>Hwy 378 Bar & Grill</ShowsEvent>
+                            <ShowsLocation>Gilbert, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/140089596684286/">
-                            <ShowsDate><strong>Sat, Mar 24</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/228011471083711/">
+                            <ShowsDate><strong>Sat, June 2</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/140089596684286/">
-                            <ShowsEvent>Wild Wing Cafe</ShowsEvent>
-                            <ShowsLocation>North Charleston, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/228011471083711/">
+                            <ShowsEvent>Castaway's Bar & Grill</ShowsEvent>
+                            <ShowsLocation>Georgetown, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
-                    <ShowsRow>
+                    {/* <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/1758739327515881/">
                             <ShowsDate><strong>Fri, Apr 6</strong> @ 9:00PM</ShowsDate>
@@ -181,7 +181,7 @@ export default (props) => {
                             <ShowsLocation>Gilbert, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
-                    </ShowsRow>
+                    </ShowsRow> */}
                 </ShowsTableBody>
             </ShowsTable>
             <Booking></Booking>
