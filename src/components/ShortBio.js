@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import bandPhoto from '../assets/band-photo.jpg';
+// import bandPhoto from '../assets/band-photo.jpg';
+import bandPhoto from '../assets/under-the-sun-2.jpg';
 
 const ShortBio = styled.section`
     padding: 60px 20px;
