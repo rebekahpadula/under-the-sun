@@ -43,7 +43,7 @@ export default (props) => {
             <SrOnlyHeading>Social media links</SrOnlyHeading>
             <SocialIconsList>
                 <SocialIconsItem><SocialIconsLink href="https://www.facebook.com/BandUnderTheSun/"><SocialIconsImage src={facebookIcon}/></SocialIconsLink></SocialIconsItem>
-                <SocialIconsItem><SocialIconsLink href=""><SocialIconsImage src={instagramIcon}/></SocialIconsLink></SocialIconsItem>
+                <SocialIconsItem><SocialIconsLink href="https://www.instagram.com/underthesunbandsc/"><SocialIconsImage src={instagramIcon}/></SocialIconsLink></SocialIconsItem>
                 <SocialIconsItem><SocialIconsLink href="https://www.youtube.com/channel/UCxvOJnlOa_gegYWQFUpmeUw"><SocialIconsImage src={youtubeIcon}/></SocialIconsLink></SocialIconsItem>
             </SocialIconsList>
         </Social>
