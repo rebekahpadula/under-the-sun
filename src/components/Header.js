@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import SrOnlyHeading from './SrOnlyHeading';
 
 import MenuIcon from '../assets/icon-menu.svg';
+import logo from '../assets/under-the-sun-logo.pdf';
 
 const Header = styled.section`
     display: flex;
@@ -91,13 +92,18 @@ const ToggleIcon = styled.img`
     vertical-align: middle;
 `;
 
-const Logo = styled.h1`
-    font-family: megrim;
-    margin: 0;
-    font-size: 30px;
-    color: #fff;
-    max-width: 400px;
+// const Logo = styled.h1`
+//     font-family: megrim;
+//     margin: 0;
+//     font-size: 30px;
+//     color: #fff;
+//     max-width: 400px;
+// `;
+
+const Logo = styled.img`
+
 `;
+
 const LogoLink = styled.a`
     flex-grow: 1;
     flex-shrink: 1;
@@ -110,7 +116,8 @@ const LogoLink = styled.a`
 export default (props) => {
     return (
         <Header>
-            <LogoLink className="heading" href="#home"><Logo>Under the Sun</Logo></LogoLink>
+            <LogoLink className="heading-link" href="#home"><Logo src={logo}/></LogoLink>
+            {/* <LogoLink className="heading" href="#home"><Logo>Under the Sun</Logo></LogoLink> */}
             <Nav>
                 <SrOnlyHeading>Primary Navigation</SrOnlyHeading>
                 <NavToggleLink href="#" id="toggleLink" aria-label="primary navigation button" onClick={props.toggleNavigation}>
