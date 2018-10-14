@@ -4,12 +4,13 @@ import styled from 'styled-components';
 import SrOnlyHeading from './SrOnlyHeading';
 
 import MenuIcon from '../assets/icon-menu.svg';
-import logo from '../assets/under-the-sun-logo.pdf';
+import logo from '../assets/under-the-sun-logo.svg';
 
 const Header = styled.section`
     display: flex;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #1793c7;
+    background-color: #fff;
 `;
 
 const Nav = styled.nav`
@@ -21,6 +22,7 @@ const Nav = styled.nav`
     right: 0;
     top: 65px;
     background-color: rgba(23, 147, 199, 0.9);
+    background-color: #fff;
 
     @media screen and (min-width: 700px) {
         position: static;
@@ -76,9 +78,13 @@ const NavItem = styled.li`
 
 const NavLink = styled.a`
     text-decoration: none;
-    color: #fff;
+    color: #1793c7;
+    /* color: #ff7e5f; */
+    /* color: #28d1ce; */
     padding: 10px;
     transition: color 0.2s;
+    margin: 0 auto;
+    display: block;
 
     &:hover {
         color: #ff9832;
@@ -101,7 +107,8 @@ const ToggleIcon = styled.img`
 // `;
 
 const Logo = styled.img`
-
+    height: 80px;
+    width: 80px;
 `;
 
 const LogoLink = styled.a`
