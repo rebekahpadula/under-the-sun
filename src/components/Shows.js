@@ -36,9 +36,9 @@ const ShowsRow = styled.tr`
     }
     
     &:first-of-type {
-        background-color: #ff9832;
-        font-weight: bold !important;
-        color: #fff;
+        /* background-color: #ff9832; */
+        /* font-weight: bold !fdAimportant; */
+        color: #ff9832;
     }
 
     @media screen and (min-width: 600px) {
@@ -120,37 +120,37 @@ export default (props) => {
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/846283592224769/">
-                            <ShowsDate><strong>Sat, May 5</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
+                            <ShowsDate><strong>Sat, Oct 13</strong> @ 4:30PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/846283592224769/">
-                            <ShowsEvent>Wild Wing Cafe</ShowsEvent><ShowsLocation>Sandhills, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1793099917408705/">
-                            <ShowsDate><strong>Sat, May 26</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1793099917408705/">
-                            <ShowsEvent>Hwy 378 Bar & Grill</ShowsEvent>
-                            <ShowsLocation>Gilbert, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
+                            <ShowsEvent>Pine Ridge 60th Anniversary Festival</ShowsEvent><ShowsLocation>West Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/228011471083711/">
-                            <ShowsDate><strong>Sat, June 2</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/763489270709460/">
+                            <ShowsDate><strong>Fri, Oct 19</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/228011471083711/">
+                            <ShowsLink href="https://www.facebook.com/events/763489270709460/">
+                            <ShowsEvent>Wild Wing Cafe</ShowsEvent>
+                            <ShowsLocation>Sandhills, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/316260522288219/">
+                            <ShowsDate><strong>Sat, Oct 20</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/316260522288219/">
                             <ShowsEvent>Castaway's Bar & Grill</ShowsEvent>
                             <ShowsLocation>Georgetown, SC</ShowsLocation>
                             </ShowsLink>
