@@ -152,7 +152,7 @@ export default (props) => {
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/316260522288219/">
                             <ShowsEvent>Castaway's Bar & Grill</ShowsEvent>
-                            <ShowsLocation>Georgetown, SC</ShowsLocation>
+                            <ShowsLocation>Georgetown, SC does this show up</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
