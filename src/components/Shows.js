@@ -120,39 +120,38 @@ export default (props) => {
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
-                            <ShowsDate><strong>Sat, Oct 13</strong> @ 4:30PM</ShowsDate>
-                            </ShowsLink>
+                            <ShowsDate><strong>Sat, Dec 8</strong> @ 7:30PM</ShowsDate>
+                            {/* <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
+                            </ShowsLink> */}
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
-                            <ShowsEvent>Pine Ridge 60th Anniversary Festival</ShowsEvent><ShowsLocation>West Columbia, SC</ShowsLocation>
-                            </ShowsLink>
+                            <ShowsEvent>Private party</ShowsEvent><ShowsLocation>Lexington, SC</ShowsLocation>
+                            {/* <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
+                            </ShowsLink> */}
                         </ShowsData>
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/763489270709460/">
-                            <ShowsDate><strong>Fri, Oct 19</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
+                            <ShowsDate><strong>Fri, Dec 14</strong> @ 9:00PM</ShowsDate>
+                            {/* <ShowsLink href="https://www.facebook.com/events/763489270709460/"> */}
+                            {/* </ShowsLink> */}
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/763489270709460/">
-                            <ShowsEvent>Wild Wing Cafe</ShowsEvent>
-                            <ShowsLocation>Sandhills, SC</ShowsLocation>
-                            </ShowsLink>
+                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Gilbert, SC</ShowsLocation>
+                            {/* <ShowsLink href="https://www.facebook.com/events/763489270709460/"> */}
+                            {/* </ShowsLink> */}
                         </ShowsData>
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/316260522288219/">
-                            <ShowsDate><strong>Sat, Oct 20</strong> @ 9:00PM</ShowsDate>
+                            <ShowsDate><strong>Sat, Dec 15</strong> @ 7:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/316260522288219/">
-                            <ShowsEvent>Castaway's Bar & Grill</ShowsEvent>
-                            <ShowsLocation>Georgetown</ShowsLocation>
+                            <ShowsEvent>Private party</ShowsEvent>
+                            <ShowsLocation>Charleston, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
