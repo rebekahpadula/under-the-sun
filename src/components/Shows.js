@@ -144,15 +144,14 @@ export default (props) => {
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/316260522288219/">
                             <ShowsDate><strong>Sat, Dec 15</strong> @ 7:00PM</ShowsDate>
-                            </ShowsLink>
+                            {/* <ShowsLink href="https://www.facebook.com/events/316260522288219/"> */}
+                            {/* </ShowsLink> */}
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/316260522288219/">
-                            <ShowsEvent>Private party</ShowsEvent>
-                            <ShowsLocation>Charleston, SC</ShowsLocation>
-                            </ShowsLink>
+                            <ShowsEvent>Private party</ShowsEvent><ShowsLocation>Charleston, SC</ShowsLocation>
+                            {/* <ShowsLink href="https://www.facebook.com/events/316260522288219/"> */}
+                            {/* </ShowsLink> */}
                         </ShowsData>
                     </ShowsRow>
                     {/* <ShowsRow>
