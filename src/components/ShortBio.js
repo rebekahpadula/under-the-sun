@@ -27,6 +27,7 @@ const ShortBioContent = styled.div`
     
     @media screen and (min-width: 768px) {
         flex-basis: 50%;
+        max-width: 50%;
         margin: 0 auto;
     }
 `;
