@@ -7,34 +7,23 @@ import MenuIcon from '../assets/icon-menu.svg';
 import logo from '../assets/under-the-sun-logo.svg';
 
 const Header = styled.section`
+    align-items: center;
+    background-color: #fff;
     display: flex;
-    padding: 10px 20px;
-    background-color: #1793c7;
-    background-color: #fff;
-`;
-
-const Nav = styled.nav`
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    flex: 0 1 auto;
-    position: absolute;
-    right: 0;
-    top: 65px;
-    background-color: rgba(23, 147, 199, 0.9);
-    background-color: #fff;
+    padding: 10px 10px;
+    position: relative;
 
     @media screen and (min-width: 700px) {
-        position: static;
-        right: 20px;
-        padding: 0;
+        padding: 10px 20px;
     }
 `;
 
+const Nav = styled.nav`
+    background-color: #fff;
+`;
+
 const NavToggleLink = styled.a`
-    float: right;
     text-decoration: none;
-    padding-right: 20px;
 
     @media screen and (min-width: 700px) {
         display: none;
@@ -42,52 +31,64 @@ const NavToggleLink = styled.a`
 `;
 
 const NavList = styled.ul`
-    list-style: none;
     display: none;
+    list-style: none;
     padding: 0;
 
     &[data-expand-content="true"] {
-        margin-top: 90px;
+        background-color: #fff;
         display: block;
-        height: 200vh;
+        height: 600vh;
+        left: 0;
+        margin-top: 100px;
+        padding-top: 60px;
+        position: absolute;
         text-align: center;
+        top: 0;
         width: 100vw;
+
+        @media screen and (min-width: 700px) {
+            height: 0;
+            margin-top: 0;
+            padding-top: 0;
+            position: static;
+            width: auto;
+        }
     }
 
     @media screen and (min-width: 700px) {
         display: block;
-        margin-top: 16px !important;
-        height: 0 !important;
-        width: 100% !important;
+        height: 0;
+        position: static;
+        margin-top: 0 !important;
     }
 `;
 
 const NavItem = styled.li`
-    margin-bottom: 30px;
     font-size: 24px;
+    margin-bottom: 30px;
 
     @media screen and (min-width: 700px) {
-        font-size: 18px;
         display: inline-block;
+        font-size: 18px;
         margin-bottom: 0;
-        &{NavItem} {
-            margin-left: 20px;
-        }
     }
 `;
 
 const NavLink = styled.a`
-    text-decoration: none;
     color: #1793c7;
-    /* color: #ff7e5f; */
-    /* color: #28d1ce; */
-    padding: 10px;
-    transition: color 0.2s;
-    margin: 0 auto;
     display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.2s;
 
     &:hover {
         color: #ff9832;
+    }
+
+    @media screen and (min-width: 700px) {
+        display: inline-block;
     }
 `;
 
@@ -98,33 +99,17 @@ const ToggleIcon = styled.img`
     vertical-align: middle;
 `;
 
-// const Logo = styled.h1`
-//     font-family: megrim;
-//     margin: 0;
-//     font-size: 30px;
-//     color: #fff;
-//     max-width: 400px;
-// `;
-
 const Logo = styled.img`
     height: 80px;
     width: 80px;
-`;
-
-const LogoLink = styled.a`
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    flex: 1 1 0;
-    cursor: pointer;
     text-decoration: none;
+    margin-right: auto;
 `;
 
 export default (props) => {
     return (
         <Header>
-            <LogoLink className="heading-link" href="#home"><Logo src={logo}/></LogoLink>
-            {/* <LogoLink className="heading" href="#home"><Logo>Under the Sun</Logo></LogoLink> */}
+            <Logo src={logo}/>
             <Nav>
                 <SrOnlyHeading>Primary Navigation</SrOnlyHeading>
                 <NavToggleLink href="#" id="toggleLink" aria-label="primary navigation button" onClick={props.toggleNavigation}>

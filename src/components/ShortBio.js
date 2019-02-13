@@ -5,8 +5,12 @@ import styled from 'styled-components';
 import bandPhoto from '../assets/under-the-sun-2.jpg';
 
 const ShortBio = styled.section`
-    padding: 60px 20px;
+    padding: 60px 10px;
     background-color: #f9f3e9;
+
+    @media screen and (min-width: 700px) {
+        padding: 60px 20px;
+    }
 
     @media screen and (min-width: 768px) {
         align-items: center;
@@ -24,11 +28,19 @@ const ShortBioHeading = styled.h1`
 const ShortBioContent = styled.div`
     max-width: 450px;
     margin: 0 auto 60px auto;
+
+    @media screen and (min-width: 700px) {
+        padding-right: 20px;
+    }
     
     @media screen and (min-width: 768px) {
         flex-basis: 50%;
         max-width: 50%;
         margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1100px) {
+        padding-right: 80px;
     }
 `;
 

@@ -11,17 +11,6 @@ const Social = styled.section`
     text-align: center;
     padding: 0 5px;
     background-color: #45a8d2;
-    /* background-color: #ff7e5f; */
-    /* background-color: #28d1ce; */
-    /* background-color: #d0e9f3; */
-    /* background-color: #73bedd; */
-    /* background-color: #45a8d2; */
-    /* because of white space around icons, we only need 5px here */
-    /* background-color: #ffac5a; */
-
-    @media screen and (min-width: 700px) {
-        text-align: right;
-    }
 `;
 
 const SocialIconsList = styled.ul`
