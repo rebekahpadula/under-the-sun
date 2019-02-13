@@ -4,7 +4,11 @@ import styled from 'styled-components';
 import Booking from './Booking';
 
 const Shows = styled.section`
-    padding: 60px 20px;
+    padding: 60px 10px;
+
+    @media screen and (min-width: 700px) {
+        padding: 60px 20px;
+    }
 `;
 
 const ShowsHeading = styled.h1`
@@ -36,14 +40,22 @@ const ShowsRow = styled.tr`
     }
     
     &:first-of-type {
-        /* background-color: #ff9832; */
-        /* font-weight: bold !fdAimportant; */
+        background-color: #ffe0c1;
+        background-color: #fff;
         color: #ff9832;
+
+        &:hover {
+            background-color: #f9f3e9;
+        }
     }
 
     @media screen and (min-width: 600px) {
         &:nth-child(even) {
             background-color: #fff;
+        }
+
+        &:first-of-type {
+            background-color: #ffe0c1;
         }
 
         &:nth-child(odd):not(:first-child) {
@@ -114,31 +126,140 @@ export default (props) => {
             <ShowsTable>
             <ShowsHeading>Shows</ShowsHeading>
                 <ShowsTableBody>
-                    <ShowsRow>
-                        <ShowsTableHeading>Date</ShowsTableHeading>
-                        <ShowsTableHeading>Event</ShowsTableHeading>
-                    </ShowsRow>
+
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsDate><strong>Sat, Dec 8</strong> @ 7:30PM</ShowsDate>
-                            {/* <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
-                            </ShowsLink> */}
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsEvent>Private party</ShowsEvent><ShowsLocation>Lexington, SC</ShowsLocation>
-                            {/* <ShowsLink href="https://www.facebook.com/events/2063949947250253/">
-                            </ShowsLink> */}
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/285671145386087/">
-                            <ShowsDate><strong>Fri, Dec 14</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/377606796361912/">
+                            <ShowsDate><strong>Sat, June 15 (trio)</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/285671145386087/">
+                            <ShowsLink href="https://www.facebook.com/events/377606796361912/">
+                            <ShowsEvent>Wild Wing Cafe (Harbison)</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/324114541781157/">
+                            <ShowsDate><strong>Fri, June 7</strong> @ 8:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/324114541781157/">
+                            <ShowsEvent>Frayed Knot Bar and Grill</ShowsEvent><ShowsLocation>Chapin, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/1000001950196269/">
+                            <ShowsDate><strong>Sat, May 12 (trio)</strong> @ 1:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/1000001950196269/">
+                            <ShowsEvent>Frayed Knot Bar and Grill</ShowsEvent><ShowsLocation>Chapin, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/599860793784953/">
+                            <ShowsDate><strong>Sat, May 11</strong> @ 10:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/599860793784953/">
+                            <ShowsEvent>Montreux Bar and Grill</ShowsEvent><ShowsLocation>Summerville, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    {/* new shows begin above */}
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/282110485787730/">
+                            <ShowsDate><strong>Sat, April 27</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/282110485787730/">
                             <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Gilbert, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/750090175359498/">
+                            <ShowsDate><strong>Fri, April 19 (trio)</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/750090175359498/">
+                            <ShowsEvent>Wild Wing Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/283846258947357/">
+                            <ShowsDate><strong>Sat, April 13</strong> @ 9:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/283846258947357/">
+                            <ShowsEvent>Red's Ice House</ShowsEvent><ShowsLocation>Mount Pleasant, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/410242859749866/">
+                            <ShowsDate><strong>Sat, April 6</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/410242859749866/">
+                            <ShowsEvent>Shooey Malone's</ShowsEvent><ShowsLocation>Lexington, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/291479411720814/">
+                            <ShowsDate><strong>Sat, March 16</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/291479411720814/">
+                            <ShowsEvent>Castaway's Bar and Grill</ShowsEvent><ShowsLocation>Georgetown, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/303254866978466/">
+                            <ShowsDate><strong>Sat, Jan 12</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/303254866978466/">
+                            <ShowsEvent>Shooey Malone's</ShowsEvent><ShowsLocation>Lexington, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/774042016269327/">
+                            <ShowsDate><strong>Sat, Jan 5</strong> @ 10:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/774042016269327/">
+                            <ShowsEvent>Wild Wing Cafe</ShowsEvent><ShowsLocation>Augusta, GA</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
@@ -154,32 +275,6 @@ export default (props) => {
                             {/* </ShowsLink> */}
                         </ShowsData>
                     </ShowsRow>
-                    {/* <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1758739327515881/">
-                            <ShowsDate><strong>Fri, Apr 6</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1758739327515881/">
-                            <ShowsEvent>Wild Wing Cafe</ShowsEvent>
-                            <ShowsLocation>Columbia, SC (The Vista)</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/931391703684310/">
-                            <ShowsDate><strong>Sat, Apr 7</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/931391703684310/">
-                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent>
-                            <ShowsLocation>Gilbert, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow> */}
                 </ShowsTableBody>
             </ShowsTable>
             <Booking></Booking>
