@@ -241,6 +241,18 @@ export default (props) => {
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/377606796361912/">
+                            <ShowsDate><strong>Sat, March 2</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/377606796361912/">
+                            <ShowsEvent>Jim's Place</ShowsEvent><ShowsLocation>Lake City, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/303254866978466/">
                             <ShowsDate><strong>Sat, Jan 12</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
