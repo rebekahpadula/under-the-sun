@@ -127,7 +127,7 @@ export default (props) => {
             <ShowsHeading>Shows</ShowsHeading>
                 <ShowsTableBody>
 
-                    <ShowsRow>
+                    {/* <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/377606796361912/">
                             <ShowsDate><strong>Sat, June 15 (trio)</strong> @ 9:00PM</ShowsDate>
@@ -138,7 +138,7 @@ export default (props) => {
                             <ShowsEvent>Wild Wing Cafe (Harbison)</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
-                    </ShowsRow>
+                    </ShowsRow> */}
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/324114541781157/">
