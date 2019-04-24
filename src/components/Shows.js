@@ -126,19 +126,18 @@ export default (props) => {
             <ShowsTable>
             <ShowsHeading>Shows</ShowsHeading>
                 <ShowsTableBody>
-
-                    {/* <ShowsRow>
+                    <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/377606796361912/">
-                            <ShowsDate><strong>Sat, June 15 (trio)</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/303647330350872/">
+                            <ShowsDate><strong>Sat, June 15</strong> @ 6:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/377606796361912/">
-                            <ShowsEvent>Wild Wing Cafe (Harbison)</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/303647330350872/">
+                            <ShowsEvent>4th Annual Columbia's Shrimp & Grits Fest</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
-                    </ShowsRow> */}
+                    </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/324114541781157/">
@@ -154,7 +153,7 @@ export default (props) => {
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/1000001950196269/">
-                            <ShowsDate><strong>Sat, May 12 (trio)</strong> @ 1:00PM</ShowsDate>
+                            <ShowsDate><strong>Sun, May 12 (trio)</strong> @ 1:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
