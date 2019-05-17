@@ -128,6 +128,18 @@ export default (props) => {
                 <ShowsTableBody>
                     <ShowsRow>
                         <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2325842350984691/">
+                            <ShowsDate><strong>Sat, June 22 (trio)</strong> @ 9:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2325842350984691/">
+                            <ShowsEvent>Wild Wing Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/303647330350872/">
                             <ShowsDate><strong>Sat, June 15</strong> @ 6:00PM</ShowsDate>
                             </ShowsLink>
@@ -140,25 +152,13 @@ export default (props) => {
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/324114541781157/">
-                            <ShowsDate><strong>Fri, June 7</strong> @ 8:30PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/1251732671656673/">
+                            <ShowsDate><strong>Fri, June 7</strong> @ 9PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/324114541781157/">
-                            <ShowsEvent>Frayed Knot Bar and Grill</ShowsEvent><ShowsLocation>Chapin, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1000001950196269/">
-                            <ShowsDate><strong>Sun, May 12 (trio)</strong> @ 1:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1000001950196269/">
-                            <ShowsEvent>Frayed Knot Bar and Grill</ShowsEvent><ShowsLocation>Chapin, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/1251732671656673/">
+                            <ShowsEvent>Wild Wing Sandhills</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
