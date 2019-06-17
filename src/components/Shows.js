@@ -128,13 +128,85 @@ export default (props) => {
                 <ShowsTableBody>
                     <ShowsRow>
                         <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2022393014736980/">
+                            <ShowsDate><strong>Fri, Sept 6</strong> @ 9:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2022393014736980/">
+                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2941928919180846/">
+                            <ShowsDate><strong>Fri, Aug 23 (trio)</strong> @ 9:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2941928919180846/">
+                            <ShowsEvent>Wild Wing Cafe Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2335538383392626/">
+                            <ShowsDate><strong>Sat, Aug 10</strong> @ 8:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2335538383392626/">
+                            <ShowsEvent>Castaway's Bar and Grill</ShowsEvent><ShowsLocation>Georgetown, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/635035656965711/">
+                            <ShowsDate><strong>Fri, Aug 9</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/635035656965711/">
+                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Summerville, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2306686502903433/">
+                            <ShowsDate><strong>Fri, July 26</strong> @ 9:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2306686502903433/">
+                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/471358746766783/">
+                            <ShowsDate><strong>Sat, July 20</strong> @ 10:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/471358746766783/">
+                            <ShowsEvent>Wild Wing Cafe Augusta</ShowsEvent><ShowsLocation>Augusta, GA</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/2325842350984691/">
                             <ShowsDate><strong>Sat, June 22 (trio)</strong> @ 9:30PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/2325842350984691/">
-                            <ShowsEvent>Wild Wing Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            <ShowsEvent>Wild Wing Cafe Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
@@ -158,7 +230,7 @@ export default (props) => {
                         </ShowsData>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/1251732671656673/">
-                            <ShowsEvent>Wild Wing Sandhills</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            <ShowsEvent>Wild Wing Cafe Sandhills</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
@@ -196,7 +268,7 @@ export default (props) => {
                         </ShowsData>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/750090175359498/">
-                            <ShowsEvent>Wild Wing Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
@@ -258,20 +330,8 @@ export default (props) => {
                         </ShowsData>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/774042016269327/">
-                            <ShowsEvent>Wild Wing Cafe</ShowsEvent><ShowsLocation>Augusta, GA</ShowsLocation>
+                            <ShowsEvent>Wild Wing Cafe Augusta</ShowsEvent><ShowsLocation>Augusta, GA</ShowsLocation>
                             </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsDate><strong>Sat, Dec 15</strong> @ 7:00PM</ShowsDate>
-                            {/* <ShowsLink href="https://www.facebook.com/events/316260522288219/"> */}
-                            {/* </ShowsLink> */}
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsEvent>Private party</ShowsEvent><ShowsLocation>Charleston, SC</ShowsLocation>
-                            {/* <ShowsLink href="https://www.facebook.com/events/316260522288219/"> */}
-                            {/* </ShowsLink> */}
                         </ShowsData>
                     </ShowsRow>
                 </ShowsTableBody>
