@@ -128,25 +128,61 @@ export default (props) => {
                 <ShowsTableBody>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2022393014736980/">
-                            <ShowsDate><strong>Fri, Sept 6</strong> @ 9:30PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/462022807908602/">
+                            <ShowsDate><strong>Fri, Sept 20</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2022393014736980/">
-                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/462022807908602/">
+                            <ShowsEvent>Wild Wing Cafe Sandhill</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2941928919180846/">
-                            <ShowsDate><strong>Fri, Aug 23 (trio)</strong> @ 9:30PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/494791927950920/">
+                            <ShowsDate><strong>Sat, Sept 14</strong> @ 10:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2941928919180846/">
-                            <ShowsEvent>Wild Wing Cafe Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/494791927950920/">
+                            <ShowsEvent>Ozzie's Country Island</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/432159834051968/">
+                            <ShowsDate><strong>Thurs, Sept 5</strong> @ 11:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/432159834051968/">
+                            <ShowsEvent>Breakers Bar & Grill</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2368730900066382/">
+                            <ShowsDate><strong>Sat, Aug 24</strong> @ 10:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2368730900066382/">
+                            <ShowsEvent>Wild Wing Cafe Grovetown</ShowsEvent><ShowsLocation>Grovetown, GA</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/917899771880791/">
+                            <ShowsDate><strong>Thurs, Aug 15</strong> @ 11:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/917899771880791/">
+                            <ShowsEvent>Breakers Bar & Grill</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
@@ -176,6 +212,18 @@ export default (props) => {
                     </ShowsRow>
                     <ShowsRow>
                         <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2917616974931705/">
+                            <ShowsDate><strong>Sat, Aug 3</strong> @ 10:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2917616974931705/">
+                            <ShowsEvent>Ozzie's Country Island</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+                    <ShowsRow>
+                        <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/2306686502903433/">
                             <ShowsDate><strong>Fri, July 26</strong> @ 9:30PM</ShowsDate>
                             </ShowsLink>
@@ -198,6 +246,23 @@ export default (props) => {
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
+
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2339742642954473/">
+                            <ShowsDate><strong>Fri, July 19</strong> @ 10:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/2339742642954473/">
+                            <ShowsEvent>Ozzie's Country Island</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+
+
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/2325842350984691/">
