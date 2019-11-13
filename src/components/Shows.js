@@ -124,8 +124,87 @@ export default (props) => {
     return (
         <Shows id="shows">
             <ShowsTable>
-            <ShowsHeading>Shows</ShowsHeading>
+                <ShowsHeading>Shows</ShowsHeading>
                 <ShowsTableBody>
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
+                            <ShowsDate><strong>Tue, Dec 31</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
+                            <ShowsEvent>New Year's Eve at Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
+                            <ShowsDate><strong>Sat, Dec 14</strong> @ 7:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
+                            <ShowsEvent>Private Christmas party</ShowsEvent><ShowsLocation>Charleston, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
+                            <ShowsDate><strong>Fri, Dec 6</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
+                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Gilbert, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/392194715042932/">
+                            <ShowsDate><strong>Sat, Oct 26</strong> @ 9:00PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/392194715042932/">
+                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Gilbert, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/418712175469915/">
+                            <ShowsDate><strong>Sat, Oct 19</strong> @ 9:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/418712175469915/">
+                            <ShowsEvent>Wild Wing Cafe Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    <ShowsRow>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/395375427791542/">
+                            <ShowsDate><strong>Fri, Oct 18</strong> @ 9:30PM</ShowsDate>
+                            </ShowsLink>
+                        </ShowsData>
+                        <ShowsData>
+                            <ShowsLink href="https://www.facebook.com/events/395375427791542/">
+                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
+                            </ShowsLink>
+                        </ShowsData>
+                    </ShowsRow>
+
+                    {/* new stuff above here */}
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/462022807908602/">
@@ -162,7 +241,7 @@ export default (props) => {
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
-                    <ShowsRow>
+                    {/* <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/2368730900066382/">
                             <ShowsDate><strong>Sat, Aug 24</strong> @ 10:00PM</ShowsDate>
@@ -311,7 +390,6 @@ export default (props) => {
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
-                    {/* new shows begin above */}
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/282110485787730/">
@@ -398,7 +476,7 @@ export default (props) => {
                             <ShowsEvent>Wild Wing Cafe Augusta</ShowsEvent><ShowsLocation>Augusta, GA</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
-                    </ShowsRow>
+                    </ShowsRow> */}
                 </ShowsTableBody>
             </ShowsTable>
             <Booking></Booking>
