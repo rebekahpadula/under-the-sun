@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Video = styled.section`
     padding: 60px 20px;
     text-align: center;
-    background-color: #f9f3e9;
+    /* background-color: #f9f3e9; gross and isnt full width anyway */
 `;
 
 const Iframe = styled.iframe`

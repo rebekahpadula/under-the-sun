@@ -8,13 +8,15 @@ import Video from './components/Video';
 import LongBio from './components/LongBio';
 import ShortBio from './components/ShortBio';
 import HeroImage from './components/HeroImage';
+import HeroVideo from './components/HeroVideo';
 
 import NavIcon from './assets/icon-menu.svg';
 import CloseIcon from './assets/icon-close.svg';
 
 const AppContainer = styled.div`
-  max-width: 1800px;
-  margin: 0 auto;
+  /* max-width: 1800px; */
+  /* margin: 0 auto; */
+  z-index: 2;
 `;
 
 export default class App extends Component {
@@ -53,10 +55,12 @@ export default class App extends Component {
 
   render() {
     return (
-      <AppContainer>
-        <Social></Social>
-        <Header toggleNavigation={this.toggleNavigation} closeMobileNav={this.closeMobileNav}></Header>
-        <HeroImage/><ShortBio></ShortBio>
+      <AppContainer className="app-container">
+        <HeroVideo/>
+        {/* <Social></Social> */}
+        {/* <Header toggleNavigation={this.toggleNavigation} closeMobileNav={this.closeMobileNav}></Header> */}
+        {/* <HeroImage/> */}
+        <ShortBio></ShortBio>
         <Shows></Shows>
         <Video></Video>
       </AppContainer>

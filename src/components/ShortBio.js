@@ -6,7 +6,7 @@ import bandPhoto from '../assets/under-the-sun-2.jpg';
 
 const ShortBio = styled.section`
     padding: 60px 10px;
-    background-color: #f9f3e9;
+    /* background-color: #f9f3e9; its gross and isnt full width */
 
     @media screen and (min-width: 700px) {
         padding: 60px 20px;

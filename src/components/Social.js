@@ -10,7 +10,7 @@ import youtubeIcon from '../assets/icon-yt.svg';
 const Social = styled.section`
     text-align: center;
     padding: 0 5px;
-    background-color: #45a8d2;
+    /* background-color: #45a8d2; not full width gees */
 `;
 
 const SocialIconsList = styled.ul`
