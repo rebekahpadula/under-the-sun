@@ -69,7 +69,7 @@ const ShortBioImage = styled.img`
 
 export default (props) => {
     return (
-        <ShortBio id="short-bio">
+        <ShortBio>
             <ShortBioContent>
                 <p className="short-bio__bio">
                     <span className="short-bio__heading"><h1 className="short-bio__heading-text">Under the Sun </h1></span>

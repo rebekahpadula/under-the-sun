@@ -13,9 +13,11 @@ const HeroImage = styled.img`
 
 export default (props) => {
     return (
-        <video className="video" autoplay="true" muted="true" controls="true" fullscreen="allow">
-            <source src={promoVideo} type="video/mp4"/>
-        </video>
+        <div className="video-wrapper">
+            <video className="video" muted="true" controls="true" fullscreen="allow">
+                <source src={promoVideo} type="video/mp4"/>
+            </video>
+        </div>
 
         // <HeroImage src={bandPhoto}/>
     )

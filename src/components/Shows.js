@@ -17,6 +17,7 @@ const ShowsHeading = styled.h1`
     margin-top: 0;
     font-size: 30px;
     font-weight: 400;
+    font-weight: 300;
 `;
 
 const ShowsTable = styled.table`

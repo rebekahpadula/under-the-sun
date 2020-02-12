@@ -16,7 +16,7 @@ const Social = styled.section`
 const SocialIconsList = styled.ul`
     list-style: none;
     padding: 0;
-    margin-top: -4px;
+    margin-top: -5px;
 `;
 
 const SocialIconsItem = styled.li`
@@ -33,7 +33,7 @@ const SocialIconsImage = styled.img`
 
 export default (props) => {
     return (
-        <Social id="contact">
+        <Social>
             <SrOnlyHeading>Social media links</SrOnlyHeading>
             <SocialIconsList>
                 <SocialIconsItem><SocialIconsLink href="https://www.facebook.com/BandUnderTheSun/"><SocialIconsImage src={facebookIcon}/></SocialIconsLink></SocialIconsItem>
