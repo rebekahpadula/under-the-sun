@@ -4,6 +4,46 @@ body {
   font-family: sans-serif;
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 .fil1:hover path {
   fill: #ff9832 !important;
+}
+
+.video {
+  width: 100%;
+  outline: none;
+}
+
+.short-bio__button {
+  border: 2px solid #1793c7;
+  background-color: #fff;
+  text-decoration: none;
+  color: #1793c7;
+  padding: 16px 30px;
+  font-size: 16px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.short-bio__button:hover {
+  background-color: #1793c7;
+  color: #fff;
+}
+
+.short-bio__bio {
+  line-height: 1.3;
+  margin-bottom: 42px;
+}
+
+.short-bio__heading-text {
+  display: inline;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.short-bio__content {
+  font-size: 16px;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import bandPhoto from '../assets/band-photo-7.jpg';
+import promoVideo from '../assets/Under_The_Sun_Promo.mp4';
 
 import bandPhoto from '../assets/under-the-sun-1.jpg';
 
@@ -13,6 +13,10 @@ const HeroImage = styled.img`
 
 export default (props) => {
     return (
-        <HeroImage src={bandPhoto}/>
+        <video className="video" autoplay="true" muted="true" controls="true" fullscreen="allow">
+            <source src={promoVideo} type="video/mp4"/>
+        </video>
+
+        // <HeroImage src={bandPhoto}/>
     )
 }

@@ -5,6 +5,8 @@ import Booking from './Booking';
 
 const Shows = styled.section`
     padding: 60px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
 
     @media screen and (min-width: 700px) {
         padding: 60px 20px;
@@ -12,9 +14,9 @@ const Shows = styled.section`
 `;
 
 const ShowsHeading = styled.h1`
-    font-family: megrim;
-    font-size: 30px;
     margin-top: 0;
+    font-size: 30px;
+    font-weight: 400;
 `;
 
 const ShowsTable = styled.table`
@@ -28,11 +30,11 @@ const ShowsTable = styled.table`
 const ShowsTableBody = styled.tbody``;
 const ShowsRow = styled.tr`
      &:not(:first-child):hover {
-        background-color: #f9f3e9;
+        /* background-color: #f9f3e9; */
     }
 
     &:nth-child(even) {
-        background-color: #ffe0c1;
+        background-color: #f0f8fb;
     }
 
     &:last-child {
@@ -40,12 +42,12 @@ const ShowsRow = styled.tr`
     }
     
     &:first-of-type {
-        background-color: #ffe0c1;
+        background-color: #f0f8fb;
         background-color: #fff;
         color: #ff9832;
 
         &:hover {
-            background-color: #f9f3e9;
+            /* background-color: #f9f3e9; */
         }
     }
 
@@ -55,14 +57,14 @@ const ShowsRow = styled.tr`
         }
 
         &:first-of-type {
-            background-color: #ffe0c1;
+            background-color: #f0f8fb;
         }
 
         &:nth-child(odd):not(:first-child) {
-            background-color: #ffe0c1;
+            background-color: #f0f8fb;
 
             &:hover {
-                background-color: #f9f3e9;
+                /* background-color: #f9f3e9; */
             }
         }
     }
@@ -124,293 +126,55 @@ export default (props) => {
     return (
         <Shows id="shows">
             <ShowsTable>
-                <ShowsHeading>Shows</ShowsHeading>
+                <ShowsHeading>Upcoming shows</ShowsHeading>
                 <ShowsTableBody>
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
-                            <ShowsDate><strong>Tue, Dec 31</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/590403385070485/">
+                            <ShowsDate><strong>Fri, Feb 14</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
-                            <ShowsEvent>New Year's Eve at Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
-                            <ShowsDate><strong>Sat, Dec 14</strong> @ 7:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
-                            <ShowsEvent>Private Christmas party</ShowsEvent><ShowsLocation>Charleston, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/590403385070485/">
+                            <ShowsEvent>Valentine's Day at Wild Wing Cafe Sandhills</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
 
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
-                            <ShowsDate><strong>Fri, Dec 6</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/2333279903444871/">
+                            <ShowsDate><strong>Fri, Feb 28</strong> @ 9:00PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/BandUnderTheSun/">
-                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Gilbert, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/392194715042932/">
-                            <ShowsDate><strong>Sat, Oct 26</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/392194715042932/">
-                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Gilbert, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/418712175469915/">
-                            <ShowsDate><strong>Sat, Oct 19</strong> @ 9:30PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/418712175469915/">
-                            <ShowsEvent>Wild Wing Cafe Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/395375427791542/">
-                            <ShowsDate><strong>Fri, Oct 18</strong> @ 9:30PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/395375427791542/">
-                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-
-                    {/* new stuff above here */}
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/462022807908602/">
-                            <ShowsDate><strong>Fri, Sept 20</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/462022807908602/">
-                            <ShowsEvent>Wild Wing Cafe Sandhill</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/494791927950920/">
-                            <ShowsDate><strong>Sat, Sept 14</strong> @ 10:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/494791927950920/">
-                            <ShowsEvent>Ozzie's Country Island</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/432159834051968/">
-                            <ShowsDate><strong>Thurs, Sept 5</strong> @ 11:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/432159834051968/">
-                            <ShowsEvent>Breakers Bar & Grill</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    {/* <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2368730900066382/">
-                            <ShowsDate><strong>Sat, Aug 24</strong> @ 10:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2368730900066382/">
-                            <ShowsEvent>Wild Wing Cafe Grovetown</ShowsEvent><ShowsLocation>Grovetown, GA</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/917899771880791/">
-                            <ShowsDate><strong>Thurs, Aug 15</strong> @ 11:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/917899771880791/">
-                            <ShowsEvent>Breakers Bar & Grill</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2335538383392626/">
-                            <ShowsDate><strong>Sat, Aug 10</strong> @ 8:30PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2335538383392626/">
-                            <ShowsEvent>Castaway's Bar and Grill</ShowsEvent><ShowsLocation>Georgetown, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/635035656965711/">
-                            <ShowsDate><strong>Fri, Aug 9</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/635035656965711/">
-                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Summerville, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2917616974931705/">
-                            <ShowsDate><strong>Sat, Aug 3</strong> @ 10:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2917616974931705/">
-                            <ShowsEvent>Ozzie's Country Island</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2306686502903433/">
-                            <ShowsDate><strong>Fri, July 26</strong> @ 9:30PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2306686502903433/">
-                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/471358746766783/">
-                            <ShowsDate><strong>Sat, July 20</strong> @ 10:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/471358746766783/">
-                            <ShowsEvent>Wild Wing Cafe Augusta</ShowsEvent><ShowsLocation>Augusta, GA</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-
-
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2339742642954473/">
-                            <ShowsDate><strong>Fri, July 19</strong> @ 10:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2339742642954473/">
-                            <ShowsEvent>Ozzie's Country Island</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-
-
-
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2325842350984691/">
-                            <ShowsDate><strong>Sat, June 22 (trio)</strong> @ 9:30PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/2325842350984691/">
-                            <ShowsEvent>Wild Wing Cafe Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/303647330350872/">
-                            <ShowsDate><strong>Sat, June 15</strong> @ 6:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/303647330350872/">
-                            <ShowsEvent>4th Annual Columbia's Shrimp & Grits Fest</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1251732671656673/">
-                            <ShowsDate><strong>Fri, June 7</strong> @ 9PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/1251732671656673/">
+                            <ShowsLink href="https://www.facebook.com/events/2333279903444871/">
                             <ShowsEvent>Wild Wing Cafe Sandhills</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
+
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/599860793784953/">
-                            <ShowsDate><strong>Sat, May 11</strong> @ 10:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/2464730510463929/">
+                            <ShowsDate><strong>Fri, Mar 13</strong> @ 9:30PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/599860793784953/">
-                            <ShowsEvent>Montreux Bar and Grill</ShowsEvent><ShowsLocation>Summerville, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/282110485787730/">
-                            <ShowsDate><strong>Sat, April 27</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/282110485787730/">
-                            <ShowsEvent>Hwy 378 Bar and Grill</ShowsEvent><ShowsLocation>Gilbert, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/2464730510463929/">
+                            <ShowsEvent>Wild Wing Cafe Harbison</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
 
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/750090175359498/">
-                            <ShowsDate><strong>Fri, April 19 (trio)</strong> @ 9:00PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/634253774027594/">
+                            <ShowsDate><strong>Fri, Mar 20</strong> @ 9:30PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/750090175359498/">
+                            <ShowsLink href="https://www.facebook.com/events/634253774027594/">
                             <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
@@ -418,68 +182,19 @@ export default (props) => {
 
                     <ShowsRow>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/283846258947357/">
-                            <ShowsDate><strong>Sat, April 13</strong> @ 9:30PM</ShowsDate>
+                            <ShowsLink href="https://www.facebook.com/events/571087733743876/">
+                            <ShowsDate><strong>Fri, Mar 27</strong> @ 9:30PM</ShowsDate>
                             </ShowsLink>
                         </ShowsData>
                         <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/283846258947357/">
-                            <ShowsEvent>Red's Ice House</ShowsEvent><ShowsLocation>Mount Pleasant, SC</ShowsLocation>
+                            <ShowsLink href="https://www.facebook.com/events/571087733743876/">
+                            <ShowsEvent>Wild Wing Cafe Vista</ShowsEvent><ShowsLocation>Columbia, SC</ShowsLocation>
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
-
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/410242859749866/">
-                            <ShowsDate><strong>Sat, April 6</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/410242859749866/">
-                            <ShowsEvent>Shooey Malone's</ShowsEvent><ShowsLocation>Lexington, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/291479411720814/">
-                            <ShowsDate><strong>Sat, March 16</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/291479411720814/">
-                            <ShowsEvent>Castaway's Bar and Grill</ShowsEvent><ShowsLocation>Georgetown, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/303254866978466/">
-                            <ShowsDate><strong>Sat, Jan 12</strong> @ 9:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/303254866978466/">
-                            <ShowsEvent>Shooey Malone's</ShowsEvent><ShowsLocation>Lexington, SC</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow>
-                    <ShowsRow>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/774042016269327/">
-                            <ShowsDate><strong>Sat, Jan 5</strong> @ 10:00PM</ShowsDate>
-                            </ShowsLink>
-                        </ShowsData>
-                        <ShowsData>
-                            <ShowsLink href="https://www.facebook.com/events/774042016269327/">
-                            <ShowsEvent>Wild Wing Cafe Augusta</ShowsEvent><ShowsLocation>Augusta, GA</ShowsLocation>
-                            </ShowsLink>
-                        </ShowsData>
-                    </ShowsRow> */}
                 </ShowsTableBody>
             </ShowsTable>
-            <Booking></Booking>
+            {/* <Booking></Booking> */}
         </Shows>
     )
 }
