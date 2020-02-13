@@ -10,13 +10,13 @@ import youtubeIcon from '../assets/icon-yt.svg';
 const Social = styled.section`
     text-align: center;
     padding: 0 5px;
-    background-color: #45a8d2;
+    background-color: #000;
 `;
 
 const SocialIconsList = styled.ul`
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: -5px;
 `;
 
 const SocialIconsItem = styled.li`
@@ -33,7 +33,7 @@ const SocialIconsImage = styled.img`
 
 export default (props) => {
     return (
-        <Social id="contact">
+        <Social>
             <SrOnlyHeading>Social media links</SrOnlyHeading>
             <SocialIconsList>
                 <SocialIconsItem><SocialIconsLink href="https://www.facebook.com/BandUnderTheSun/"><SocialIconsImage src={facebookIcon}/></SocialIconsLink></SocialIconsItem>

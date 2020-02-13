@@ -3,8 +3,6 @@ import styled, {keyframes} from 'styled-components';
 
 import SrOnlyHeading from './SrOnlyHeading';
 
-import envelopeIcon from '../assets/icon-envelope.svg';
-
 const BookingHeading = styled.h1``;
 
 const BounceAnimation = keyframes`
