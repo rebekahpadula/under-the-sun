@@ -37,14 +37,13 @@ body {
 
 .video-button {
   background-color: transparent;
-  background-color: pink;
   border: none;
   margin: 0 auto;
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
-  font-size: 1em;
+  top: 40%;
+  font-size: 1.5em;
   cursor: pointer;
   opacity: 1;
 }

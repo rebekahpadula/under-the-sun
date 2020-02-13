@@ -14,7 +14,7 @@ const HeroImage = styled.img`
 export default (props) => {
     return (
         <div className="video-wrapper">
-            <video className="video" muted="true" controls="true" fullscreen="allow">
+            <video className="video" controls="true" fullscreen="allow">
                 <source src={promoVideo} type="video/mp4"/>
             </video>
             <button className="video-button" aria-label="video play/pause button"><img className="video-button__image" src={playIcon}/></button>
