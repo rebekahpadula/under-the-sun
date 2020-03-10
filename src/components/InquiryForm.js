@@ -1,8 +1,14 @@
-import React from "react";
+import React, { Component } from 'react';
 
-class Form extends React.Component {
+export default class InquiryForm extends Component {
 
-    shouldComponentUpdate(nextProps) {}
+    constructor(props) {
+        super(props);
+        // this.state = {};
+
+      }
+
+    // shouldComponentUpdate(nextProps) {}
     // built in functions dont need to be bound
     // arrow functions bind automatically
     // regular functions need to be bound
@@ -10,7 +16,7 @@ class Form extends React.Component {
     render() {
         return (
                                         // does this work or do i need a <a> ?  
-            <Form className="form" action="mailto:rebekah.adair@yahoo.com" method="post">
+            <InquiryForm className="form" action="mailto:rebekah.adair@yahoo.com" method="post">
                 <label for="name">Name</label>
                 <input type="text" id="name" required/>
 
@@ -46,9 +52,7 @@ class Form extends React.Component {
                 
                 <input type="submit" value="Send Inquiry"/>
 
-            </Form>
+            </InquiryForm>
         );
     }
 }
-
-export default Form;
