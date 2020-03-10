@@ -1,3 +1,6 @@
 Under_The_Sun_Promo.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 Under_The_Sun_Promo.4f86c73d.mp4 filter=lfs diff=lfs merge=lfs -text
+build/static/media/Under_The_Sun_Promo.4f86c73d.mp4
+ filter=lfs diff=lfs merge=lfs -text
+src/assets/Under_The_Sun_Promo.mp4 filter=lfs diff=lfs merge=lfs -text
