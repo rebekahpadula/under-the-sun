@@ -73,13 +73,13 @@ export default (props) => {
             <ShortBioContent>
                 <p className="short-bio__bio">
                     <span className="short-bio__heading"><h1 className="short-bio__heading-text">Under the Sun </h1></span>
-                    <span className="short-bio__content">is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under the Sun plays a variety of genres such as country, pop, classic rock, and 90’s rock. Like they always say, “if you don’t like something you hear, just stick around”.</span>
+                    <span className="short-bio__content">is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under the Sun plays a variety of genres such as country, pop, classic rock, and 90’s rock. Like they always say, “if you don’t like something you hear, just stick around”. To book us for your next event please email us. Be sure to fill out all of the prompts already included in the email and feel free to give us any additional details about the event. We can't wait to hear from&nbsp;you!</span>
                 </p>
                 {/* <span className="short-bio__heading"><ShortBioHeading>Under the Sun</ShortBioHeading></span> */}
                 {/* <ShortBioPara>
                     is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under The Sun plays a variety of genres such as country, classic rock, 90’s rock, and pop. Like they always say, “if you don’t like something you hear, just stick around”.
                 </ShortBioPara> */}
-                <a className="short-bio__button" href="mailto:bandunderthesunsc@gmail.com">Book us for your next event</a>
+                <a className="short-bio__button" href="mailto:dbaker@bookece.com?cc=bandunderthesunsc@gmail.com&subject=Your Under the Sun Booking Inquiry&body=First and Last Name:%0A%0APhone Number:%0A%0ADate of Event:%0A%0ALocation of Event:%0A%0ATell us more:">Book us for your next event</a>
             </ShortBioContent>
             <ShortBioImage src={bandPhoto} alt="Under the Sun group photo"/>
         </ShortBio>
