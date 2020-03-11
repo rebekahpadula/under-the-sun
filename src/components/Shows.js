@@ -154,6 +154,7 @@ export default (props) => {
                             </ShowsLink>
                         </ShowsData>
                     </ShowsRow>
+
                     <ShowsRow>
                         <ShowsData>
                             <ShowsLink href="https://www.facebook.com/events/2464730510463929/">
