@@ -3,6 +3,8 @@
 
         let videoButton = document.querySelector('.video-button');
 
+        let video = document.querySelector('.video');
+
         videoButton.addEventListener('click', function() {
           console.log(videoButton.classList);
           if(videoButton.classList.contains('active')) {
@@ -13,4 +15,15 @@
             videoButton.classList.add('active');
           };
         });
+
+        video.addEventListener('click', function() {
+          console.log("you clicked the video!");
+          if(videoButton.classList.contains('active')) {
+            // ctrlVideo.pause();
+            videoButton.classList.remove('active');
+          } else {
+            ctrlVideo.pause();
+            videoButton.classList.add('active');
+          };
+        }, true)
       });</script><script type="text/javascript" src="/static/js/main.c3b9bcaf.js"></script></body></html>
