@@ -79,7 +79,7 @@ export default (props) => {
                 {/* <ShortBioPara>
                     is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under The Sun plays a variety of genres such as country, classic rock, 90’s rock, and pop. Like they always say, “if you don’t like something you hear, just stick around”.
                 </ShortBioPara> */}
-                <a className="short-bio__button" href="mailto:dbaker@bookece.com?cc=bandunderthesunsc@gmail.com&subject=Your Under the Sun Booking Inquiry&body=First and Last Name:%0A%0APhone Number:%0A%0ADate of Event:%0A%0ALocation of Event:%0A%0ATell us more:">Send Inquiry</a>
+                <a className="short-bio__button" href="mailto:dbaker@bookece.com?cc=bandunderthesunsc@gmail.com&subject=Your Under the Sun Booking Inquiry&body=First and Last Name:%0A%0APhone Number:%0A%0ADate of Event:%0A%0ALocation of Event:%0A%0AType of Event (wedding, festival, corporate event, birthday party, etc.):%0A%0ATell us more:">Send Inquiry</a>
             </ShortBioContent>
             <ShortBioImage src={bandPhoto} alt="Under the Sun group photo"/>
         </ShortBio>
