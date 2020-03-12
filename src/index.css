@@ -43,11 +43,13 @@ body {
   cursor: pointer;
   opacity: 1;
   outline: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .video-button {
     top: 40%;
+    display: block;
   }
 }
 
