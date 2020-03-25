@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import promoVideo from '../assets/Under_The_Sun_Promo.mp4';
+import poster from '../assets/uts-logo-2020.jpeg';
 import playIcon from '../assets/icon-play.svg';
 import bandPhoto from '../assets/under-the-sun-1.jpg';
 
