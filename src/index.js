@@ -16,3 +16,6 @@ document.querySelector('.video').addEventListener('canplaythrough', function() {
   this.currentTime = 1.2;
 }, false);
 
+document.querySelector('.video').addEventListener('loadedmetadata', function() {
+    this.currentTime = 1.2;
+  }, false);

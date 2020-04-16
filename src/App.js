@@ -4,10 +4,12 @@ import styled from 'styled-components';
 import Header from './components/Header';
 import Shows from './components/Shows';
 import Social from './components/Social';
-import Video from './components/Video';
-import LongBio from './components/LongBio';
-import ShortBio from './components/ShortBio';
+// import Video from './components/Video';
+// import LongBio from './components/LongBio';
+import ShortBioComp from './components/ShortBio';
 import HeroImage from './components/HeroImage';
+// import Modal from './components/Modal';
+import InquiryForm from './components/InquiryForm';
 
 import NavIcon from './assets/icon-menu.svg';
 import CloseIcon from './assets/icon-close.svg';
@@ -55,9 +57,11 @@ export default class App extends Component {
     return (
       <AppContainer>
         {/* <Header toggleNavigation={this.toggleNavigation} closeMobileNav={this.closeMobileNav}></Header> */}
-        <HeroImage/><Social></Social>
-        <ShortBio></ShortBio>
-        <Shows></Shows>
+        <HeroImage/><Social/>
+        <ShortBioComp/>
+        {/* <Modal/> */}
+        {/* <InquiryForm></InquiryForm> */}
+        <Shows/>
         {/* <Video></Video> */}
       </AppContainer>
     );
