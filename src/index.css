@@ -37,7 +37,7 @@ body {
   left: 0;
   right: 0;
   top: 40%;
-  top: 34%;
+  top: 31%;
   cursor: pointer;
   opacity: 1;
   outline: none;
@@ -45,7 +45,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .video-button {
-    top: 40%;
+    top: 43.5%;
   }
 }
 
