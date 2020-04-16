@@ -15,6 +15,7 @@ const Shows = styled.section`
 
 const ShowsHeading = styled.h1`
     margin-top: 0;
+    margin-bottom: 5px;
     font-size: 30px;
     font-weight: 400;
     font-weight: 300;
@@ -127,7 +128,8 @@ export default (props) => {
     return (
         <Shows id="shows">
             <ShowsTable>
-                <ShowsHeading>Upcoming shows</ShowsHeading>
+                <ShowsHeading>Upcoming public shows</ShowsHeading>
+                <h2 className="showsSubheading">(Private bookings not listed)</h2>
                 <ShowsTableBody>
                     <ShowsRow>
                         <ShowsData>
