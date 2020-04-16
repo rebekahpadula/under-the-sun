@@ -17,7 +17,7 @@ export default (props) => {
             <video className="video" controls="true" fullscreen="allow">
                 <source src={promoVideo} type="video/mp4"/>
             </video>
-            <button className="video-button" aria-label="video play/pause button"><img className="video-button__image" src={playIcon}/></button>
+            {/* <button className="video-button" aria-label="video play/pause button"><img className="video-button__image" src={playIcon}/></button> */}
         </div>
 
         // <HeroImage src={bandPhoto}/>
