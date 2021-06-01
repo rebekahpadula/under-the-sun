@@ -61,7 +61,7 @@ export default class App extends Component {
         <ShortBioComp/>
         {/* <Modal/> */}
         {/* <InquiryForm></InquiryForm> */}
-        <Shows/>
+//         <Shows/>
         {/* <Video></Video> */}
       </AppContainer>
     );
