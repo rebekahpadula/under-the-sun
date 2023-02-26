@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import InquiryForm from './InquiryForm';
 
 // import bandPhoto from '../assets/band-photo.jpg';
-import bandPhoto from '../assets/uts-promo-photo-2.jpg';
+import bandPhoto from '../assets/uts-promo-photo-kel.jpeg';
 
 const ShortBio = styled.section`
     /* padding: 60px 10px; */
@@ -42,7 +42,7 @@ const ShortBioContent = styled.div`
     @media screen and (min-width: 700px) {
         padding-right: 20px;
     }
-    
+
     @media screen and (min-width: 768px) {
         flex-basis: 50%;
         max-width: 50%;
@@ -61,7 +61,7 @@ const ShortBioPara = styled.p`
 
 const ShortBioImage = styled.img`
     width: 100%;
-    
+
     @media screen and (min-width: 768px) {
         flex-basis: 50%;
         max-width: 50%;
@@ -109,7 +109,7 @@ export default class ShortBioComp extends Component {
                         is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under The Sun plays a variety of genres such as country, classic rock, 90’s rock, and pop. Like they always say, “if you don’t like something you hear, just stick around”.
                     </ShortBioPara> */}
                     {/* <a className="short-bio__button" href="mailto:bandunderthesunsc@gmail.com">Send Inquiry</a> */}
-    
+
                     <button onClick={this.openModal} className="short-bio__button">Send Inquiry</button>
                 </ShortBioContent>
                 <ShortBioImage src={bandPhoto} alt="Under the Sun group photo"/>
