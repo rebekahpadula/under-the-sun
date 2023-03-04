@@ -7,15 +7,13 @@ import InquiryForm from './InquiryForm';
 import bandPhoto from '../assets/uts-promo-photo-kel.jpeg';
 
 const ShortBio = styled.section`
-    /* padding: 60px 10px; */
-    /* background-color: #f9f3e9; */
     margin-top: 24px;
-    max-width: 1200px;
-    margin: 24px auto 0 auto;
+    max-width: 1300px;
+    margin: 0px auto 0 auto;
     position: relative;
 
     @media screen and (min-width: 700px) {
-        padding: 60px 20px;
+        padding: 60px 10px;
     }
 
     @media screen and (min-width: 768px) {
@@ -36,7 +34,7 @@ const ShortBioHeading = styled.h1`
 const ShortBioContent = styled.div`
     max-width: 450px;
     margin: 0 auto 60px auto;
-    margin: 60px 10px 90px 10px;
+    margin: 40px 10px 40px 10px;
 
 
     @media screen and (min-width: 700px) {
@@ -55,7 +53,6 @@ const ShortBioContent = styled.div`
 `;
 
 const ShortBioPara = styled.p`
-    margin-bottom: 54px;
     margin-top: 0;
 `;
 
@@ -102,8 +99,9 @@ export default class ShortBioComp extends Component {
                 <ShortBioContent>
                     <p className="short-bio__bio">
                         <span className="short-bio__heading"><h1 className="short-bio__heading-text">Under the Sun </h1></span>
-                        <span className="short-bio__content">is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under the Sun plays a variety of genres such as country, pop, classic rock, and 90’s rock. Like they always say, “if you don’t like something you hear, just stick around”.</span>
+                        <span className="short-bio__content">is a six-piece party band from Columbia, South Carolina that plays a huge variety of genres and all the hits especially from the 90’s, 00’s and today! With multiple vocalists, professional lighting & sound and thousands of successful events under their belts, the members of Under the Sun know how to bring the party to your event.</span>
                     </p>
+                    <p>For booking inquiries, simply shoot us an email to check if we are available for your date! Be sure to fill out all of the prompts already included in the email and feel free to give us any additional details about the event. We can't wait to hear from you!</p>
                     {/* <span className="short-bio__heading"><ShortBioHeading>Under the Sun</ShortBioHeading></span> */}
                     {/* <ShortBioPara>
                         is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under The Sun plays a variety of genres such as country, classic rock, 90’s rock, and pop. Like they always say, “if you don’t like something you hear, just stick around”.

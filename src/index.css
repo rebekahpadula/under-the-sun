@@ -101,15 +101,9 @@ body {
   color: #fff;
 }
 
-.short-bio__bio {
-  line-height: 1.4;
-  margin-bottom: 42px;
-}
-
 .short-bio__heading-text {
   display: inline;
   font-size: 38px;
-  /* font-weight: 400; */
   font-weight: 300;
   line-height: 1.1;
 }
@@ -153,7 +147,7 @@ body {
 
 }
 
-/* 
+/*
 .modal.active::before {
   content: '';
   display: block;
