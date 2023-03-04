@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import InquiryForm from './InquiryForm';
 
-// import bandPhoto from '../assets/band-photo.jpg';
 import bandPhoto from '../assets/uts-promo-photo-kel.jpeg';
 
 const ShortBio = styled.section`
@@ -102,23 +101,11 @@ export default class ShortBioComp extends Component {
                         <span className="short-bio__content">is a six-piece party band from Columbia, South Carolina that plays a huge variety of genres and all the hits especially from the 90’s, 00’s and today! With multiple vocalists, professional lighting & sound and thousands of successful events under their belts, the members of Under the Sun know how to bring the party to your event.</span>
                     </p>
                     <p>For booking inquiries, simply shoot us an email to check if we are available for your date! Be sure to fill out all of the prompts already included in the email and feel free to give us any additional details about the event. We can't wait to hear from you!</p>
-                    {/* <span className="short-bio__heading"><ShortBioHeading>Under the Sun</ShortBioHeading></span> */}
-                    {/* <ShortBioPara>
-                        is a five piece cover band from Columbia, South Carolina. As their name rightly suggests, Under The Sun plays a variety of genres such as country, classic rock, 90’s rock, and pop. Like they always say, “if you don’t like something you hear, just stick around”.
-                    </ShortBioPara> */}
-                    {/* <a className="short-bio__button" href="mailto:bandunderthesunsc@gmail.com">Send Inquiry</a> */}
-
-                    <button onClick={this.openModal} className="short-bio__button">Send Inquiry</button>
+                    <div className="short-bio__button-container">
+                      <a className="short-bio__button" href="mailto:dbaker@bookece.com?cc=bandunderthesunsc@gmail.com&subject=Under The Sun Inquiry&body=Event type:          Date:          Location:          Contact information:          Any Additional info: ">Send Inquiry</a>
+                    </div>
                 </ShortBioContent>
                 <ShortBioImage src={bandPhoto} alt="Under the Sun group photo"/>
-                <div className="modal">
-                    <div className="modal__controls">
-                        <button onClick={this.closeModal} className="modal__close-button" name="close"><svg alt="close button" enable-background="new 0 0 100 100" id="Layer_1" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><polygon fill="#ccc" points="77.6,21.1 49.6,49.2 21.5,21.1 19.6,23 47.6,51.1 19.6,79.2 21.5,81.1 49.6,53 77.6,81.1 79.6,79.2 51.5,51.1 79.6,23 "/></svg></button>
-                    </div>
-                    <div className="modal__content">
-                        <InquiryForm/>
-                    </div>
-                </div>
             </ShortBio>
         )
     }

@@ -18,7 +18,7 @@
 //         const modal = document.querySelector('.modal');
 //         modal.classList.remove('active');
 //     }
-    
+
 //     // shouldComponentUpdate(nextProps) {}
 //     // built in functions dont need to be bound
 //     // arrow functions bind automatically

@@ -14,7 +14,7 @@ export default class InquiryForm extends Component {
 
     render() {
         return (
-                                        // does this work or do i need a <a> ?  
+                                        // does this work or do i need a <a> ?
             <form className="form" action="mailto:dbaker@bookece.com?cc=bandunderthesunsc@gmail.com&subject=Your Under the Sun Booking Inquiry" method="post" enctype="text/plain" target="_blank">
                 <h2 className="form__heading">Tell us about your event</h2>
 
@@ -57,7 +57,7 @@ export default class InquiryForm extends Component {
                             <option value="Performing arts event">Performing arts event</option>
                             <option value="Bar or nightclub event">Bar or nightclub event</option>
                             <option value="Birthday party">Birthday party</option>
-                            <option value="Wedding">Wedding</option>   
+                            <option value="Wedding">Wedding</option>
                             <option value="Other">Other</option>
                         </select>
                     </div>
