@@ -51,7 +51,7 @@ export default class App extends Component {
   render() {
     return (
       <AppContainer>
-      // <HeroImage/>
+      <HeroImage/>
         <Social/>
         <ShortBioComp/>
       </AppContainer>

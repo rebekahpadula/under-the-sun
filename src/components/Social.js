@@ -38,7 +38,6 @@ export default (props) => {
             <SocialIconsList>
                 <SocialIconsItem><SocialIconsLink target="_blank" href="https://www.facebook.com/BandUnderTheSun/"><SocialIconsImage src={facebookIcon}/></SocialIconsLink></SocialIconsItem>
                 <SocialIconsItem><SocialIconsLink target="_blank" href="https://www.instagram.com/bandunderthesunsc/"><SocialIconsImage src={instagramIcon}/></SocialIconsLink></SocialIconsItem>
-                <SocialIconsItem><SocialIconsLink target="_blank" href="https://www.youtube.com/channel/UCxvOJnlOa_gegYWQFUpmeUw"><SocialIconsImage src={youtubeIcon}/></SocialIconsLink></SocialIconsItem>
             </SocialIconsList>
         </Social>
     )

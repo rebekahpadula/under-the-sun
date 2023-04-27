@@ -8,5 +8,5 @@ ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
 // document.querySelector('.video').addEventListener('loadedmetadata', function() {
-//     this.currentTime = 1.2;
+//     this.currentTime = 18;
 //   }, false);

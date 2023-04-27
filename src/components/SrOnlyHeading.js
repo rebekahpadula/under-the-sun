@@ -1,4 +1,3 @@
-// A component that is a sr only heading for all components! Because I want to use section tags OKAY;
 import React from 'react';
 import styled from 'styled-components';
 

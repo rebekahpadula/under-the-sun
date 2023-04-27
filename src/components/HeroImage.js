@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import promoVideo from '../assets/uts-2023-budget-promo-lol.MP4';
+import promoVideo from '../assets/uts-2023-promo.MP4';
 import playIcon from '../assets/icon-play.svg';
 import bandPhoto from '../assets/under-the-sun-1.jpg';
 
