@@ -51,13 +51,9 @@ export default class App extends Component {
   render() {
     return (
       <AppContainer>
-        {/* <Header toggleNavigation={this.toggleNavigation} closeMobileNav={this.closeMobileNav}></Header> */}
-        <HeroImage/><Social/>
+      // <HeroImage/>
+        <Social/>
         <ShortBioComp/>
-        {/* <Modal/> */}
-        {/* <InquiryForm></InquiryForm> */}
-        {/* }// <Shows/> */}
-        {/* <Video></Video> */}
       </AppContainer>
     );
   }
