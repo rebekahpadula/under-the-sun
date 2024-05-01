@@ -1,16 +1,13 @@
 {
-  "main.css": "static/css/main.9e7051af.css",
-  "main.css.map": "static/css/main.9e7051af.css.map",
-  "main.js": "static/js/main.ab5eb1f6.js",
-  "main.js.map": "static/js/main.ab5eb1f6.js.map",
+  "main.css": "static/css/main.73f71a36.css",
+  "main.css.map": "static/css/main.73f71a36.css.map",
+  "main.js": "static/js/main.668d017d.js",
+  "main.js.map": "static/js/main.668d017d.js.map",
   "static/media/icon-close.svg": "static/media/icon-close.a3c69c9d.svg",
-  "static/media/icon-fb.svg": "static/media/icon-fb.e79f03cc.svg",
-  "static/media/icon-ig.svg": "static/media/icon-ig.de5ed58d.svg",
+  "static/media/icon-fb.svg": "static/media/icon-fb.8118aa75.svg",
+  "static/media/icon-ig.svg": "static/media/icon-ig.1fcd7b1c.svg",
   "static/media/icon-menu.svg": "static/media/icon-menu.b98d91a3.svg",
-  "static/media/icon-play.svg": "static/media/icon-play.5f64c3a3.svg",
-  "static/media/icon-yt.svg": "static/media/icon-yt.c1d962d6.svg",
-  "static/media/under-the-sun-1.jpg": "static/media/under-the-sun-1.573a2e80.jpg",
+  "static/media/icon-tt.svg": "static/media/icon-tt.fbcf5237.svg",
   "static/media/under-the-sun-logo.svg": "static/media/under-the-sun-logo.74d3fb12.svg",
-  "static/media/uts-2023-promo.MP4": "static/media/uts-2023-promo.b1291543.MP4",
-  "static/media/uts-promo-photo-kel.jpeg": "static/media/uts-promo-photo-kel.83462cea.jpeg"
+  "static/media/uts-promo-photo-2024.jpg": "static/media/uts-promo-photo-2024.53f16b2e.jpg"
 }
