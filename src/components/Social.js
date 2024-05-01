@@ -5,7 +5,7 @@ import SrOnlyHeading from './SrOnlyHeading';
 
 import facebookIcon from '../assets/icon-fb.svg';
 import instagramIcon from '../assets/icon-ig.svg';
-import youtubeIcon from '../assets/icon-yt.svg';
+import tiktokIcon from '../assets/icon-tt.svg';
 
 const Social = styled.section`
     text-align: center;
@@ -21,15 +21,14 @@ const SocialIconsList = styled.ul`
 
 const SocialIconsItem = styled.li`
     display: inline-block;
+    padding: 8px 16px;
 `;
 
 const SocialIconsLink = styled.a``;
 
 const SocialIconsImage = styled.img`
-    height: 50px;
+    height: 30px;
 `;
-
-
 
 export default (props) => {
     return (
@@ -38,6 +37,7 @@ export default (props) => {
             <SocialIconsList>
                 <SocialIconsItem><SocialIconsLink target="_blank" href="https://www.facebook.com/BandUnderTheSun/"><SocialIconsImage src={facebookIcon}/></SocialIconsLink></SocialIconsItem>
                 <SocialIconsItem><SocialIconsLink target="_blank" href="https://www.instagram.com/bandunderthesunsc/"><SocialIconsImage src={instagramIcon}/></SocialIconsLink></SocialIconsItem>
+                <SocialIconsItem><SocialIconsLink target="_blank" href="https://www.tiktok.com/@bandunderthesunsc"><SocialIconsImage src={tiktokIcon}/></SocialIconsLink></SocialIconsItem>
             </SocialIconsList>
         </Social>
     )
