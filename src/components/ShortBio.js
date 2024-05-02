@@ -29,7 +29,7 @@ const ShortBioHeading = styled.h1`
 const ShortBioContent = styled.div`
     max-width: 450px;
     text-align: center;
-    margin: 24px auto 48px auto;
+    margin: 24px 12px 48px 12px;
 
 
     @media screen and (min-width: 700px) {
